@@ -1,3 +1,16 @@
 # Recommendation-system-
 
-Arena APIs : http://arena.siesgst.ac.in/api/docs
+- Get Started
+
+```
+virtualenv env
+.\env\Scripts\activate.ps1
+pip install -r requirements.txt
+```
+
+
+- Lint
+
+```
+black-nb .\notebooks\
+```

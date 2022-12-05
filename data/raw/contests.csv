@@ -1,0 +1,176 @@
+__v,_id,announcement,code,contestAdmin,createdAt,description,editorialLink,endsAt,invitationLink,name,solutionVisibility,startsAt,type,updatedAt
+0,5b5c89ef30db8a0020962414, ,UNIVERSE,"[{""$oid"":""5b6d84eb2e9049002068df33""},{""$oid"":""5b6dcf5ce21df60020be63c4""}]",2018-07-28T09:51:19.754Z,Contest open for 5 year with playlists problems,,2023-07-28T03:30:00.000Z,,Universe,DURING,2018-07-28T03:30:00.000Z,UNRATED,2020-08-09T03:48:39.906Z
+0,5b5ca6d47cf0b100209fe49a," Give your feedback here: <a href=""https://goo.gl/forms/PUTRfCJPftc9UTUj1"">https://goo.gl/forms/PUTRfCJPftc9UTUj1</a>",AUG18,5b5ca6857cf0b100209fe499,2018-07-28T11:54:36.229Z,36 hours long contest,http://arena.siesgst.ac.in/blog/5b684c2b9fa4e2002008f85e,2018-08-05T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5b6478c558d190002048aab8,August Queue,AFTER,2018-08-04T04:30:00.000Z,UNRATED,2018-08-04T10:01:00.744Z
+0,5b5dc464e608dd0020ec2c73,"Give your feedback here: <a href=""https://goo.gl/forms/Gdo1j27AuHx659Lx1"">https://goo.gl/forms/Gdo1j27AuHx659Lx1</a>
+<br><br>
+Ratings will be changed within 48 hours after the contest ends.",SRM01,"[{""$oid"":""5b5d756037392f89933e7514""}]",2018-07-29T08:13:00.822Z,3 hour contest ,http://arena.siesgst.ac.in/blog/5b6f159e9bb13800202a58a9,2018-08-12T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5b6b2949e514980020065d0d,Single Round Match #01,AFTER,2018-08-11T13:30:00.000Z,RATED,2020-04-23T09:40:52.983Z
+0,5b5dc4dce608dd0020ec2c74,"<center>
+<b>01:40 PM</b>: Check your submission to see details about CE or RTE <br>
+<b>12:28 PM</b>: In Problem D, all the numbers are in single line for each test <br>
+Tips and Tricks for Python: <a href=""http://siesgstarena.herokuapp.com/blog/5b9fdc2ced703a001fe14f10"" target=""_blank"">Visit Here</a><br>
+Tips and Tricks for C++: <a href=""http://siesgstarena.herokuapp.com/blog/5b9ea5f17fa8aa001fe32e46"" target=""_blank"">Visit Here</a><br>
+Tips and Tricks for Java: <a href=""http://siesgstarena.herokuapp.com/blog/5b9e10bc21f9cc001fe9216e"" target=""_blank"">Visit Here</a><br>
+</center>",SEPT18,5b66d36591c77d0020b63d0b,2018-07-29T08:15:00.437Z,36 hour long contest,http://arena.siesgst.ac.in/blog/5ba7c4e184a463001f96c670,2018-09-23T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5ba3b64996b924001f5afe6d,September Queue,AFTER,2018-09-22T04:30:00.000Z,RATED,2018-09-22T02:40:33.999Z
+0,5b5dc535e608dd0020ec2c75,"First 4 submissions made at the start are rejudged.
+",SRM03,5b6490e95969e7002076f330,2018-07-29T08:16:29.760Z,3 hour contest,http://arena.siesgst.ac.in/blog/5b97f0bb0570cd0020067f5a,2018-09-11T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5b8ff646b932db0020c1684f,Single Round Match #03,AFTER,2018-09-11T13:30:00.000Z,UNRATED,2020-03-26T00:27:57.319Z
+0,5b5f23b909acb80020dcb1cb,"<b>Important</b>:<br>
+There was a mistake encountered in setting of SRM02A and SRM02B. Points for Wrong Answer has been retracted. You can make submissions for SRM02A and SRM02B now. 
+We apologise for the inconvenience. 
+<br>
+For SRM02A:
+Output should have an exact precision of 2 digits after decimal.<br>
+Constraints are 1 <= T <= 100000
+",SRM02,5b5d752b37392f89933e7513,2018-07-30T09:12:01.844Z,3 hour contest,http://arena.siesgst.ac.in/blog/5b784bece2221500209ac8f2,2018-08-18T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5b71503a155c0000206d76fd,Single Round Match #02,AFTER,2018-08-18T13:30:00.000Z,UNRATED,2018-08-18T10:02:19.028Z
+0,5b6d7c54b961cc0020dd5dea, ,SRM04,"[{""$oid"":""5b606d47e228ec0020a1fcf1""},{""$oid"":""5b607d4fe228ec0020a1fcf2""}]",2018-08-10T06:21:48.744Z,3 hour contest,http://arena.siesgst.ac.in/blog/5bafaa5b78d488002197d1ed,2018-09-29T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5bacf8f9b811e00021373ca0,Single Round Match #04,AFTER,2018-09-29T13:30:00.000Z,RATED,2018-11-05T02:02:56.337Z
+0,5be5457a87cbe500218a98a3,"<!--<img src=""https://i.imgur.com/QV2OJaj.png"" width=""100%"">!-->
+Scoring will be <b>100-200-300</b>.",SRM05,"[{""$oid"":""5b5d756b37392f89933e7515""}]",2018-11-09T02:59:46.071Z,3 hour contest,http://arena.siesgst.ac.in/blog/5c322df2a97ba60022317bfe,2019-01-06T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5c2f5dada6245d0022071a06,Single Round Match #05,AFTER,2019-01-06T13:30:00.000Z,RATED,2019-01-06T00:16:08.619Z
+0,5be6a5517a6d6f0021c12b1c,"Scoring will be <b>100-200-250</b>. <br>
+Know more about Black Mirror: Bandersnatch 
+<a href=""https://www.netflix.com/in/title/80988062"">here</a>.",SRM06,"[{""$oid"":""5b6c6860746b5e0020a32aa7""}]",2018-11-10T04:00:57.120Z,3 hour contest,http://arena.siesgst.ac.in/blog/5c3b6d37b4920600229da70c,2019-01-13T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5c3788d2f647780022d5689d,Single Round Match #06,AFTER,2019-01-13T13:30:00.000Z,RATED,2019-09-10T03:03:44.222Z
+0,5c1aa0c354c48b00218cb45d,"Register for Bytecamp 2019 here: <a href=""https://bytecamp19.hackerearth.com/"" target=""_blank"">https://bytecamp19.hackerearth.com/</a>",SRM07,"[{""$oid"":""5b659a0c64290b0020a95960""},{""$oid"":""5b6541b064290b0020a9594a""}]",2018-12-19T14:19:23.438Z,3 hour contest,http://arena.siesgst.ac.in/blog/5c4ddfa54191fd0022a7e228,2019-01-27T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5c4d412f4f66dc0022a58654,Single Round Match #07,AFTER,2019-01-27T13:30:00.000Z,RATED,2019-01-27T03:17:09.628Z
+0,5c1aa10854c48b00218cb45e, ,SRM08,"[{""$oid"":""5b6d84eb2e9049002068df33""},{""$oid"":""5b6dcf5ce21df60020be63c4""}]",2018-12-19T14:20:32.967Z,3 hour contest,http://arena.siesgst.ac.in/blog/5c5717d087ce5400224dc1ae,2019-02-03T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5c55b491cd61f40022177445,Single Round Match #08,AFTER,2019-02-03T13:30:00.000Z,RATED,2018-12-20T08:05:13.666Z
+0,5c1aa1d954c48b00218cb45f, ,SRM09,"[{""$oid"":""5b67014c91c77d0020b63d25""},{""$oid"":""5b606d47e228ec0020a1fcf1""},{""$oid"":""5b607d4fe228ec0020a1fcf2""}]",2018-12-19T14:24:01.015Z,3 hour contest,http://arena.siesgst.ac.in/blog/5c7c031b3d26a70022f23062,2019-03-03T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5c7bcaf95dfcc900221e1147,Single Round Match #09,AFTER,2019-03-03T13:30:00.000Z,RATED,2019-02-18T12:08:01.616Z
+0,5c7d6ca285be5a0022471c0e,"<b>Surprise Problem Added!</b><br>
+<h5 align=""center"">Contest is extended by 24 hours!</h5>",GBYE19,"[{""$oid"":""5b6c66d6746b5e0020a32aa5""},{""$oid"":""5b5c89298114180020d4bcb0""},{""$oid"":""5b5d752b37392f89933e7513""},{""$oid"":""5b66fe9391c77d0020b63d1f""},{""$oid"":""5b66d36591c77d0020b63d0b""},{""$oid"":""5b5d756b37392f89933e7515""}]",2019-03-04T12:51:22.428Z,#OneLastTime Contest from Batch of 2015-19 of SIES GST,,2019-04-01T15:30:00.000Z,,Good Bye Batch 15-19,AFTER,2019-03-30T15:30:00.000Z,UNRATED,2019-03-31T01:38:18.639Z
+0,5d3aed30a5c0bb0022255d25," <b>1)</b> Please note that the output should follow the exact output format <br>
+<b>2)</b> <b>Java -</b> Note that the class name should be ""<b>Main</b>"" <br>
+( Compiler for Java - open JDK 8 ) <br>
+<b>3) C/C++ -</b> Note the the datatype of main function should be <b>int</b> with <b>return 0</b>
+<br> <br>
+<b>Please help us by filling the feedback form: </b> <br>
+<a href=""https://forms.gle/2QM8uxZMZvc56h6k6"">https://forms.gle/2QM8uxZMZvc56h6k6</a>",BETA01,"[{""$oid"":""5b67014c91c77d0020b63d25""},{""$oid"":""5b5ca6857cf0b100209fe499""}]",2019-07-26T06:38:16.068Z,Beta Contest for Beginners,http://arena.siesgst.ac.in/blog/5d3dd5b91132780022915e5f,2019-07-28T17:00:00.000Z,http://arena.siesgst.ac.in/blog/5d3d6f864f4af90022b364cf,Beta Round 01,AFTER,2019-07-28T14:00:00.000Z,UNRATED,2019-08-10T02:58:48.800Z
+0,5d46ef1286031f00223f4ce6,"  <b>1)</b> Please note that the output should follow the exact output format <br>
+<b>2)</b> <b>Java -</b> Note that the class name should be ""<b>Main</b>"" <br>
+( Compiler for Java - open JDK 8 ) <br>
+<b>3) C/C++ -</b> Note the the datatype of main function should be <b>int</b> with <b>return 0</b>
+<br> <br>",SRM10,"[{""$oid"":""5b6d84eb2e9049002068df33""}]",2019-08-04T09:13:30.306Z,3 hour contest,http://arena.siesgst.ac.in/blog/5d4efc4e5a6f360022db2221,2019-08-10T17:00:00.000Z,http://arena.siesgst.ac.in/blog/5d4d83d607b7510022141b35,Single Round Match #10,AFTER,2019-08-10T14:00:00.000Z,RATED,2019-08-10T02:58:04.069Z
+0,5d5ec6be46a1a70022bd6140,"   <b>1)</b> Please note that the output should follow the exact output format <br>
+<b>2)</b> <b>Java -</b> Note that the class name should be ""<b>Main</b>"" <br>
+( Compiler for Java - open JDK 8 ) <br>
+<b>3) C/C++ -</b> Note that the return type of main function should be <b>int</b> with <b>return 0</b>
+<br> <br>",SRM11,"[{""$oid"":""5b6dcf5ce21df60020be63c4""},{""$oid"":""5b6e6f112e29b100208b2e14""}]",2019-08-22T11:15:50.379Z,3 hour contest,http://arena.siesgst.ac.in/blog/5d62c415e007440022d89e64,2019-08-25T17:00:00.000Z,http://arena.siesgst.ac.in/blog/5d600383ea727e0022282644,Single Round Match #11,AFTER,2019-08-25T14:00:00.000Z,RATED,2019-08-25T03:54:10.505Z
+0,5d7681463f1e64002252b75b,"If you love problem solving, you'd definitely love this movie! <br>
+<b>1)</b> Please note that the output should follow the exact output format <br>
+<b>2)</b> <b>Java -</b> Note that the class name should be ""<b>Main</b>"" <br>
+<b>3) C/C++ -</b> Header file <b>conio.h</b> should be avoided at all costs. <br>
+<br>
+<br>
+If your solutions have been submitted multiple times at once, they will be reverted back to one submission after the end of the contest. Final Scoreboard will be updated.",SRM12,"[{""$oid"":""5b6c6860746b5e0020a32aa7""}]",2019-09-09T11:13:50.493Z,3 hour contest,http://arena.siesgst.ac.in/blog/5d7e70a745059a00221537ed,2019-09-15T17:00:00.000Z,http://arena.siesgst.ac.in/blog/5d7a5583b112e300220a44cf,Single Round Match #12,AFTER,2019-09-15T14:00:00.000Z,RATED,2019-09-15T09:46:28.939Z
+0,5e14b9317ddd7100229c7e28,"Editorial is up, please check the home page<br> 
+1) Please note that the output should follow the exact output format <br>
+Also <b>do not</b> print anything which is not required in the output format. <br>
+2)<b> Java </b> - Note that the class name should be ""Main"" <br>
+3) <b> C/C++ </b> - Main function datatype should be int. Header file conio.h should be avoided at all costs.",SRM13,"[{""$oid"":""5b5ca6857cf0b100209fe499""}]",2020-01-07T11:30:33.893Z,3 hour contest,http://arena.siesgst.ac.in/blog/5e1b498b4be6fd0022ca14c5,2020-01-12T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5e16086a73aedb002281071b,Single Round Match #13,AFTER,2020-01-12T13:30:00.000Z,RATED,2020-01-12T11:03:47.759Z
+0,5e2455fc4166340022a42a78," 1) Please note that the output should follow the exact output format <br>
+Also <b>do not</b> print anything which is not required in the output format. <br>
+2)<b> Java </b> - Note that the class name should be ""Main"" <br>
+3) <b> C/C++ </b> - Main function datatype should be int. Header file conio.h should be avoided at all costs.",SRM14,"[{""$oid"":""5b607d4fe228ec0020a1fcf2""}]",2020-01-19T07:43:32.408Z,3 hour contest,http://arena.siesgst.ac.in/blog/5e2dbeac6b87cb0022790bcd,2020-01-26T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5e2b124cd146750022478580,Single Round Match #14,AFTER,2020-01-26T13:30:00.000Z,RATED,2020-01-26T00:40:53.528Z
+0,5e67278e39ed5e002212b92c,"Make sure you strip() the input when using python. <br>
+  1) Please note that the output should follow the exact output format <br>
+Also <b>do not</b> print anything which is not required in the output format. <br>
+2)<b> Java </b> - Note that the class name should be ""Main"" <br>
+3) <b> C/C++ </b> - Main function datatype should be int. Header file conio.h should be avoided at all costs.",SRM15,"[{""$oid"":""5d4c24c2a3bf49002216c109""},{""$oid"":""5d690d4fe783c700228ad9c2""},{""$oid"":""5d60af35ea727e002228269b""}]",2020-03-10T00:07:18.280Z,3 hour contest,http://arena.siesgst.ac.in/blog/5e6e5c0a9054f70023aa5c4d,2020-03-15T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5e6dde12502c4b0022178a60,Single Round Match #15,AFTER,2020-03-15T13:30:00.000Z,RATED,2020-03-15T10:01:39.320Z
+0,5e789da43c5b1000225088cc," 1) Please note that the output should follow the exact output format
+2) Java - Note that the class name should be ""Main""
+( Compiler for Java - open JDK 8 )
+3) C/C++ - Note that the return type of main function should be int with return 0",SRM16,"[{""$oid"":""5b647d5e58d190002048aabc""},{""$oid"":""5b606d47e228ec0020a1fcf1""}]",2020-03-23T05:59:40.519Z,3 hour contest,http://arena.siesgst.ac.in/blog/5e80cd1699770c00221d428c,2020-03-29T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5e7f0c460f94c100225ef6d6,Single Round Match #16,AFTER,2020-03-29T13:30:00.000Z,RATED,2020-03-29T08:40:45.821Z
+0,5e9161f35052460022173ca8,"1) Please note that the output should follow the exact output format <br>
+Also <b>do not</b> print anything which is not required in the output format. <br>
+2)<b> Java </b> - Note that the class name should be ""Main"" <br>
+3) <b> C/C++ </b> - Main function datatype should be int. Header file conio.h should be avoided at all costs. <br>
+<b>Note: </b> ""Compilation-Time-Limit-Exceeded"" verdicts (CTLE, not CE or TLE) will be rejudged
+ ",GBYE20,"[{""$oid"":""5b65571764290b0020a95951""},{""$oid"":""5b6480fa58d190002048aabf""},{""$oid"":""5b647abb58d190002048aaba""},{""$oid"":""5b659a0c64290b0020a95960""},{""$oid"":""5b6eec1626d9950020e72ba0""},{""$oid"":""5b9658517a85c60020f98a6d""},{""$oid"":""5b6541b064290b0020a9594a""}]",2020-04-11T00:51:39.569Z,#OneLastTime Contest from Batch of 2016-20 of SIES GST,http://arena.siesgst.ac.in/blog/5e9c57acd9546300227a1cb4,2020-04-19T13:30:00.000Z,http://arena.siesgst.ac.in/blog/5e9418a8d998010022434057,Good Bye Batch 16-20,AFTER,2020-04-17T13:30:00.000Z,RATED,2020-04-19T08:36:09.573Z
+0,5f313af9cc881400222ebf89,"<b style = ""color : black"" >  
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",SRM17,"[{""$oid"":""5c6c5f6948ad8f0022af4743""},{""$oid"":""5d6022e2ea727e0022282681""},{""$oid"":""5f3374cf9173380022e144d0""}]",2020-08-10T06:48:01.343Z,3 hour contest,    http://arena.siesgst.ac.in/blog/5f3960b2d1818b0022afbc67,2020-08-16T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5f34f93f72b45b0022f74c52,Single Round Match #17,AFTER,2020-08-16T13:30:00.000Z,RATED,2020-09-07T08:01:12.843Z
+0,5f356f4072b45b0022f74cb7," <b style = ""color : black"" >  
+26th Sept 20:30 IST : Stronger Tests were added for E, all previous submissions were rejudged
+<br></br>
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0 
+</b>",SEPT20,"[{""$oid"":""5b67014c91c77d0020b63d25""},{""$oid"":""5b5ca6857cf0b100209fe499""},{""$oid"":""5b607d4fe228ec0020a1fcf2""}]",2020-08-13T11:20:08.297Z,48 hours long contest,http://arena.siesgst.ac.in/blog/5f7094bac31344002232e365,2020-09-27T13:30:00.000Z,http://arena.siesgst.ac.in/blog/5f5dc9c795a3230022a5af27,September Queue 2020,AFTER,2020-09-25T13:30:00.000Z,RATED,2020-09-27T13:38:39.652Z
+0,5f7a351ef30ca9002252fe46," <b style = ""color : black"" >  
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  <br><br>
+Contest has been extended by 15 mins and will end at 10:15 pm <br> <br>
+Unfortunately, this round will be unrated because of some technical issues. We apologize for the inconvenience. <br>
+</b>
+",GSL01,"[{""$oid"":""5d4c24c2a3bf49002216c109""},{""$oid"":""5b607d4fe228ec0020a1fcf2""},{""$oid"":""5e2d98816b87cb002278f690""}]",2020-10-04T20:48:30.145Z,3 hour contest,       http://arena.siesgst.ac.in/blog/5f8336a6583c5600223b6cee,2020-10-11T16:45:00.000Z,http://arena.siesgst.ac.in/blog/5f7f37e174928400228e69d8,Girl Setters League #01,AFTER,2020-10-11T13:30:00.000Z,RATED,2020-10-11T16:49:42.412Z
+0,5f8d9a0a06a7680022ddafa8," <b style = ""color : black"" >  
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",SRM18,"[{""$oid"":""5c6c5f6948ad8f0022af4743""},{""$oid"":""5d6022e2ea727e0022282681""},{""$oid"":""5b6dcf5ce21df60020be63c4""}]",2020-10-19T13:52:10.458Z,3 hour contest,http://arena.siesgst.ac.in/blog/5f9ee44bba1fc50022b08367,2020-11-01T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5f9a79f41f59c70022ee5f3e,Single Round Match #18,AFTER,2020-11-01T13:30:00.000Z,RATED,2020-11-04T04:57:57.884Z
+0,5fa234999ea1e70022121d23,"  <b style = ""color : black"" >  
+0) For problem B, each letter can be used not more than once<br><br>
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",SRM19,"[{""$oid"":""5f3374cf9173380022e144d0""},{""$oid"":""5b5ca6857cf0b100209fe499""},{""$oid"":""5b607d4fe228ec0020a1fcf2""}]",2020-11-04T04:56:57.259Z,5 hour contest,       http://arena.siesgst.ac.in/blog/5fb157e3435c070022a511e9,2020-11-15T16:30:00.000Z,http://arena.siesgst.ac.in/blog/5fb02074b5538800223c1c95,Single Round Match #19,AFTER,2020-11-15T11:30:00.000Z,RATED,2020-11-29T13:42:54.329Z
+0,5fb28f0360de8b00220b7da9,"   <b style = ""color : black"" >  
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",NOV20,"[{""$oid"":""5b65571764290b0020a95951""},{""$oid"":""5b647abb58d190002048aaba""},{""$oid"":""5b6eec1626d9950020e72ba0""},{""$oid"":""5b66d36591c77d0020b63d0b""},{""$oid"":""5b5d756b37392f89933e7515""},{""$oid"":""5b6541b064290b0020a9594a""}]",2020-11-16T14:38:59.388Z,48 hours long contest,http://arena.siesgst.ac.in/blog/5fc3a267455c370022d50b25       ,2020-11-29T13:30:00.000Z,http://arena.siesgst.ac.in/blog/5fbe6b7c5c9ce7002280645c,November Queue 2020,AFTER,2020-11-27T13:30:00.000Z,RATED,2020-11-29T13:43:14.820Z
+0,602b66fedfe1b80022f0e0d0,"<b style = ""color : black"" >  
+Register here : <a href=""https://bit.ly/joinCPteam"" style=""color: blue"" target=""_blank"">bit.ly/joinCPteam</a><br><br>
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0
+<b>",REC21,"[{""$oid"":""5b67014c91c77d0020b63d25""},{""$oid"":""5b6dcf5ce21df60020be63c4""},{""$oid"":""5b5ca6857cf0b100209fe499""},{""$oid"":""5b607d4fe228ec0020a1fcf2""}]",2021-02-16T06:32:30.232Z,48 hours long contest,       ,2021-02-21T13:30:00.000Z,,Recruit 2021,AFTER,2021-02-19T13:30:00.000Z,UNRATED,2021-02-19T16:38:33.624Z
+0,603be86627461500227a839d," There's been a slight change in the explanation section of problem 4 (Triangular geometry).",SRM20,"[{""$oid"":""5c6c5f6948ad8f0022af4743""},{""$oid"":""5d6022e2ea727e0022282681""}]",2021-02-28T19:00:54.538Z,6 hour contest,       ,2021-03-14T16:30:00.000Z,,Single Round Match #20,AFTER,2021-03-14T10:30:00.000Z,RATED,2021-03-14T14:55:34.669Z
+0,603be8df27461500227a839e,"<b style = ""color : red"" >
+NOTE: Please re-submit your solutions as their was a slight error in file formatting. Your previous submissions will be discarded if it was judged wrongly.<br>
+Please note for problem A, the last number of your output on each line must end with a space.
+</b> <br>
+<b style = ""color : black"" >
+0) Please give us feedback about the preferred duration of contests - <a href=""https://forms.gle/E2pnTjNUTXW3apfn9"" target=""_blank"">here</a>!<br>
+1) Note that the output should follow the exact output format  <br>
+2) Java - Note that the class name should be ""Main""   <br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",SRM21,"[{""$oid"":""5d62a79ee007440022d88d86""},{""$oid"":""5b706a058fe72c002072c1dd""},{""$oid"":""5f340cd8ca90a7002288664e""},{""$oid"":""5d60af35ea727e002228269b""}]",2021-02-28T19:02:55.180Z,3 hour contest,       ,2021-03-21T16:30:00.000Z,,Single Round Match #21,AFTER,2021-03-21T13:30:00.000Z,RATED,2021-03-21T14:36:49.004Z
+0,605a126eba27a900226a650d," <p style = ""text-align: center;"" ><img src = ""https://i.imgur.com/Xlz3Jyem.jpg""> </p>
+<b style = ""color : black"" >  
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",APR21,"[{""$oid"":""5b67014c91c77d0020b63d25""},{""$oid"":""5b5ca6857cf0b100209fe499""}]",2021-03-23T16:08:14.555Z,48 hours long contest,       ,2021-04-04T13:30:00.000Z,,April Queue 2021,AFTER,2021-04-02T13:30:00.000Z,RATED,2022-08-21T10:00:39.070Z
+0,60f4130d4fe139002219d0fc, ,SRM22,"[{""$oid"":""5b5d756b37392f89933e7515""},{""$oid"":""5b6541b064290b0020a9594a""}]",2021-07-18T11:39:57.988Z,3 hour contest,       ,2021-07-24T11:00:00.000Z,,Single Round Match #22,AFTER,2021-07-24T08:00:00.000Z,UNRATED,2021-08-13T15:35:14.875Z
+0,610ac33b180cbb00224a80df, ,SRM23,"[{""$oid"":""5d6022e2ea727e0022282681""},{""$oid"":""5f340cd8ca90a7002288664e""},{""$oid"":""604c77b190ee760022d2e121""},{""$oid"":""5d60af35ea727e002228269b""}]",2021-08-04T16:41:31.846Z,3 hour contest,     https://drive.google.com/drive/u/2/folders/1Tyu6w08jBoY5wUwiizgR1ySAmEYGkrHu,2021-08-08T16:30:00.000Z,,Single Round Match #23,AFTER,2021-08-08T13:30:00.000Z,RATED,2022-04-14T14:54:25.705Z
+0,613749278baa930023d6dec7,"<p style=""color:red;""><b>Problem B has been updated with stronger test cases. All existing solutions have been rejudged.<b></p>",SEP21,"[{""$oid"":""5c6c5f6948ad8f0022af4743""},{""$oid"":""5d62a79ee007440022d88d86""},{""$oid"":""5b706a058fe72c002072c1dd""},{""$oid"":""5b6dcf5ce21df60020be63c4""},{""$oid"":""5d60af35ea727e002228269b""}]",2021-09-07T11:12:39.447Z,,       ,2021-09-13T13:30:00.000Z,,September Queue 2021,AFTER,2021-09-11T13:30:00.000Z,RATED,2021-09-12T07:18:33.993Z
+0,614a23f82321c8002376602d, ,SRM24,"[{""$oid"":""5d61609aec3cc6002207e859""},{""$oid"":""5d690d4fe783c700228ad9c2""},{""$oid"":""5d4c0509a3bf49002216c0fe""},{""$oid"":""604c77b190ee760022d2e121""},{""$oid"":""5d60af35ea727e002228269b""}]",2021-09-21T18:27:04.733Z,4 hour contest,       ,2021-09-26T17:30:00.000Z,,Single Round Match #24,AFTER,2021-09-26T13:30:00.000Z,RATED,2021-09-21T18:27:04.733Z
+0,618a933d3fa65a0023c760cc, ,NOV21,"[{""$oid"":""5d6022e2ea727e0022282681""},{""$oid"":""5d62a79ee007440022d88d86""},{""$oid"":""5d61609aec3cc6002207e859""},{""$oid"":""5d690d4fe783c700228ad9c2""},{""$oid"":""5f340cd8ca90a7002288664e""},{""$oid"":""604c77b190ee760022d2e121""},{""$oid"":""5d60af35ea727e002228269b""}]",2021-11-09T15:26:53.689Z,,       ,2021-11-15T13:30:00.000Z,,November Queue 2021,AFTER,2021-11-13T13:30:00.000Z,RATED,2021-11-12T19:29:57.774Z
+0,61d2fae2677b2c00245fb12c, ,CH2022,"[{""$oid"":""5d6022e2ea727e0022282681""},{""$oid"":""5d61609aec3cc6002207e859""},{""$oid"":""5b706a058fe72c002072c1dd""},{""$oid"":""604c77b190ee760022d2e121""}]",2022-01-03T13:32:18.430Z,,       ,2022-01-09T17:30:00.000Z,,Coding Hangover,AFTER,2022-01-09T13:30:00.000Z,RATED,2022-01-08T15:31:47.469Z
+0,61f6f05d2a6fda002415f802, ,GSL02,"[{""$oid"":""610fa31c34efd900220e7905""},{""$oid"":""60f59a7a127bbd0022548bd9""},{""$oid"":""60f6555b8a08930022448fa2""},{""$oid"":""60f8fcade0d84200226943cd""}]",2022-01-30T20:09:01.133Z,,       ,2022-02-06T13:30:00.000Z,,Girl Setters League #02,AFTER,2022-02-05T13:30:00.000Z,RATED,2022-02-05T13:24:13.319Z
+0,6213bb069cb4130024933c74,Problem C has been updated with stronger test cases. All existing solutions have been rejudged.,OFFFEB,"[{""$oid"":""5e154a82ee18a800226022ac""},{""$oid"":""60f5682a127bbd0022548bd4""},{""$oid"":""5d6022e2ea727e0022282681""},{""$oid"":""5d62a79ee007440022d88d86""},{""$oid"":""604dd7fa8c2e090022290f12""},{""$oid"":""60f5686c127bbd0022548bd5""},{""$oid"":""61e7af6bd41fda002412d483""},{""$oid"":""604c77b190ee760022d2e121""}]",2022-02-21T16:17:10.971Z,,       ,2022-02-27T13:30:00.000Z,,Offline February ,AFTER,2022-02-26T13:30:00.000Z,RATED,2022-02-26T19:11:41.826Z
+0,6254fe82ff3fbf0024dfddd6,"We have added a little bit of twist, in order to spice up the contest few questions will be revealed in between the contest!!
+So stay tuned with us on our website to be updated about the hidden questions.
+<br>
+<br>
+New questions have been revealed. You guys can check them out and boost your scores up on the scoreboard.
+<br>
+<br>
+Testcases for Question D & E have been updated and all existing solutions have been rejudged.
+
+
+",TC2022,"[{""$oid"":""5d6022e2ea727e0022282681""},{""$oid"":""5d62a79ee007440022d88d86""},{""$oid"":""5d61609aec3cc6002207e859""},{""$oid"":""5b706a058fe72c002072c1dd""},{""$oid"":""5d690d4fe783c700228ad9c2""},{""$oid"":""5f340cd8ca90a7002288664e""},{""$oid"":""5d4c0509a3bf49002216c0fe""},{""$oid"":""604c77b190ee760022d2e121""},{""$oid"":""5d60af35ea727e002228269b""}]",2022-04-12T04:22:26.560Z,,       ,2022-04-15T13:30:00.000Z,,Turing Cup 2022,AFTER,2022-04-13T13:30:00.000Z,UNRATED,2022-04-15T07:56:31.443Z
+0,62d178f33683c700225f605b, ,JUL22,"[{""$oid"":""5d61609aec3cc6002207e859""},{""$oid"":""604dd7fa8c2e090022290f12""},{""$oid"":""60f919c0e0d84200226943d3""},{""$oid"":""61e7af6bd41fda002412d483""},{""$oid"":""60fa8e009e8f310022c7d35c""}]",2022-07-15T14:25:55.455Z,,       ,2022-07-24T13:30:00.000Z,,July Queue 2022,AFTER,2022-07-23T13:30:00.000Z,RATED,2022-07-15T17:26:15.161Z
+0,62f9e0b813bf83002259f177,"<p style = ""text-align: center;"" ><img src = ""https://i.imgur.com/JHIyoGtm.png""></p>
+<b style = ""color : black"" >  
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",CDEV,"[{""$oid"":""605718dbefc8bd00222f955b""},{""$oid"":""60f5682a127bbd0022548bd4""},{""$oid"":""60f919c0e0d84200226943d3""},{""$oid"":""61e7af6bd41fda002412d483""}]",2022-08-15T05:59:20.441Z,,       ,2022-08-21T16:30:00.000Z,,Single Round Match #25,AFTER,2022-08-21T13:30:00.000Z,RATED,2022-08-21T16:02:25.013Z
+0,631caed72b3f7e00223e7430," <p style = ""text-align: center;"" ><img src = ""https://i.imgur.com/6KUbcB2_d.jpg""></p>
+<br><b>Team Scoreboard: <a href=""http://arena.siesgst.ac.in/bug4ever/scoreboard""> Click here </a></b> <br><br>
+<b style = ""color : black"" >  
+1) Please note that the output should follow the exact output format  <br></br>
+2) Java - Note that the class name should be ""Main""   <br></br>
+3) C/C++ - Note that the return type of main function should be int with return 0  
+</b>",B4E22Q,"[{""$oid"":""605718dbefc8bd00222f955b""},{""$oid"":""61d714a3c8f7c10024e1de85""},{""$oid"":""630229d49aeee6002264dfa8""},{""$oid"":""604dd7fa8c2e090022290f12""},{""$oid"":""60f919c0e0d84200226943d3""},{""$oid"":""604c77b190ee760022d2e121""},{""$oid"":""60fa8e009e8f310022c7d35c""},{""$oid"":""60f6cb058a08930022448fb9""}]",2022-09-10T15:35:51.803Z,,       ,2022-09-28T13:30:00.000Z,,Bug4Ever Qualifiers 2022,AFTER,2022-09-26T13:30:00.000Z,RATED,2022-09-26T14:20:21.833Z
+0,63359cf3125f8a00222e0641, ,B4E22F,"[{""$oid"":""5d61609aec3cc6002207e859""},{""$oid"":""5d690d4fe783c700228ad9c2""},{""$oid"":""614356f6de9f530023e327de""},{""$oid"":""5f340cd8ca90a7002288664e""},{""$oid"":""5d60af35ea727e002228269b""}]",2022-09-29T13:26:11.348Z,,       ,2022-09-30T10:45:00.000Z,,Bug4Ever Finals 2022,AFTER,2022-09-30T07:45:00.000Z,UNRATED,2022-09-30T07:24:32.652Z
+0,638a5611ebfd3cb984cf1d46,,TEST12,"[{""$oid"":""61e7b13dd41fda002412d485""},{""$oid"":""62f7a32346f66c0022b5261a""},{""$oid"":""60f5682a127bbd0022548bd4""},{""$oid"":""6251b959e148e90024e445a6""}]",2022-12-02T19:46:25.529Z,,,2022-12-30T19:44:00.000Z,,Testing purpose,AFTER,2022-12-02T19:44:45.000Z,UNRATED,2022-12-02T19:46:25.529Z
