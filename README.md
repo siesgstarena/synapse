@@ -29,3 +29,13 @@ flake8 $(git ls-files '*.py')
 ```
 black .
 ```
+
+- Spin Docker container for development
+```
+ docker compose -f .\docker-compose-dev.yml up
+```
+
+- Remove chache and build
+```
+docker compose -f .\docker-compose-dev.yml up --build --remove-orphans --force-recreate
+```
