@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
+load_dotenv('.env')
 from routes.index import index
-import os
+from . import firebase
+
 def create_app(app):
-    load_dotenv('.env')
     app.register_blueprint(index,url_prefix='/')
     return app
