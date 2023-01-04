@@ -101,7 +101,7 @@ unsafe-load-any-extension=no
 #verbose=
 
 disable=
-    C0114,C0116,
+    C0114,C0116,C0115
 [BASIC]
 
 # Naming style matching correct argument names.
@@ -328,7 +328,7 @@ indent-after-paren=4
 indent-string='    '
 
 # Maximum number of characters on a single line.
-max-line-length=100
+max-line-length=200
 
 # Maximum number of lines in a module.
 max-module-lines=1000

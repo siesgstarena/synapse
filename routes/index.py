@@ -1,6 +1,7 @@
 import os
 from flask import Blueprint
 from firebase_admin import storage
+from models.ml_modal import MLModal
 
 index = Blueprint(name="index", import_name=__name__)
 
@@ -29,4 +30,16 @@ def firebase_folder():
     bucket = storage.bucket()
     blob = bucket.blob("2020-05-01/t.csv")
     blob.upload_from_filename(file)
+    return "Hello World"
+
+
+@index.route("/mongo", methods=["GET"])
+def mongo():
+    # save a model to mongo
+    model = MLModal(
+        raw_dataset_url="https://raw_dataset_url",
+        processed_dataset_url="https://processed_dataset_url",
+        model_url="https://model_url",
+    )
+    model.save()
     return "Hello World"
