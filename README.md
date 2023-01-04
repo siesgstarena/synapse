@@ -12,5 +12,10 @@ pip install -r requirements.txt
 - Lint
 
 ```
-black-nb .\notebooks\
+pylint $(git ls-files '*.py')
+```
+
+- Format
+```
+black .
 ```
