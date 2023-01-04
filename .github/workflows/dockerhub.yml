@@ -3,7 +3,7 @@ name: Docker Hub
 on:
   workflow_run:
     workflows: [ "Pylint" ]
-    branches: [ "master" ]
+    branches: [ "main" ]
     types:
       - completed
 
