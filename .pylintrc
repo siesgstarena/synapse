@@ -180,6 +180,12 @@ good-names=i,
            j,
            k,
            ex,
+           df,
+           x,
+           y,
+           n,
+           X,
+           Y,
            Run,
            _
 
