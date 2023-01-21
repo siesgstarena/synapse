@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier as KNN
 def load_model(model_name):
-    with open(model_name) as file:
-        model = pickle.load(model_name)
+    with open(model_name,'rb') as file:
+        model = pickle.load(file)
     return model
 def knn_recommend(problemId, n_neighbors,df, knn):
     Y = df['problemId']
@@ -20,9 +20,9 @@ def save_sim(sim,filename):
   with open(filename,"wb") as filename:
     pickle.dump(sim,filename)
 if __name__ == "__main__":
-  df=pd.read_csv('success_score.csv')
+  df=pd.read_csv('./data/processed/success_score.csv')
   df.rename(columns = {'Unnamed: 0':'problemId'}, inplace = True)
   sim = defaultdict(list)
   for j in df['problemId']:
-    sim[j].append(knn_recommend(j, 3 , df , load_model('knn_model_3_ball_tree')))
+    sim[j].append(knn_recommend(j, 3 , df , load_model('knn_ball_tree')))
   save_sim(sim,'similarities.pkl')
