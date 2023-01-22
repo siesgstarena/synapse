@@ -14,4 +14,5 @@ def upload_file_to_firebase(type_name, file_paths):
         blob.upload_from_filename(filename)
         blob.make_public()
         firebase_url.append(blob.public_url)
+    firebase_url.append(current_date)
     return firebase_url
