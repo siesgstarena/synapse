@@ -19,12 +19,12 @@ def knn_recommend(problem_id, n_neighbors, df, knn):
     return rec
 
 
-def save_similarities(df, n_neighbors, model_name):
+def save_similarities(df, n_neighbors, model_name, similarities_path):
     knn = load_model(model_name)
     sim = defaultdict(list)
     for j in df["problemId"]:
         sim[j].append(knn_recommend(j, n_neighbors, df, knn))
-    save_sim(sim, "similarities.pkl")
+    save_sim(sim, similarities_path)
 
 
 if __name__ == "__main__":

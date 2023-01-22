@@ -9,6 +9,7 @@ class MLModal(db.Document):
     raw_dataset_url = db.StringField(required=True)
     processed_dataset_url = db.StringField(required=True)
     model_url = db.StringField(required=True)
+    similarity_url = db.StringField(required=True)
     model_number = db.IntField()
     is_current = db.BooleanField(default=False)
     creation_date = db.DateTimeField()
