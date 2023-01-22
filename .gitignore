@@ -11,7 +11,7 @@
 
 # Vscode
 .vscode
-
+flask_session/
 # IPython
 profile_default/
 ipython_config.py
