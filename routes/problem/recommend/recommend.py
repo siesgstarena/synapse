@@ -5,7 +5,7 @@ index = Blueprint(name="recommend", import_name=__name__)
 
 
 @index.route("", methods=["GET"])
-def indexs():
+def recommend_handler():
     json = request.get_json()
     data = json["data"]
     problem_id = data["id"]

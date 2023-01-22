@@ -6,6 +6,7 @@ from routes import index, training, recommend, admin_route
 from db.mongo import init_mongo
 from storage.firebase import init_firebase
 from middleware.auth import AdminIndexView
+from middleware.access_token import VerifyAccessToken
 
 
 def create_app(app, config_file="settings.py"):
@@ -15,10 +16,11 @@ def create_app(app, config_file="settings.py"):
     app.config.from_pyfile(config_file)
     app = init_mongo(app)
     Session(app)
+    app.wsgi_app = VerifyAccessToken(app.wsgi_app)
     app.register_blueprint(index, url_prefix="/")
+    app.register_blueprint(admin_route, url_prefix="/admin")
     app.register_blueprint(training, url_prefix="/problem/training")
     app.register_blueprint(recommend, url_prefix="/problem/recommend")
-    app.register_blueprint(admin_route, url_prefix="/admin")
     admins = admin.Admin(
         app,
         "Arena: Recommendation System",

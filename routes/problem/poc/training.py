@@ -8,7 +8,7 @@ index = Blueprint(name="training", import_name=__name__)
 
 
 @index.route("", methods=["POST"])
-def indexs():
+def training_handler():
     json = request.get_json()
     data = json["data"]
     submission_path = raw(data)
