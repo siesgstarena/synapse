@@ -1,5 +1,5 @@
 ---
-name: Improvemet model
+name: Improvement model
 about: Suggest improvement in the model
 title: ''
 labels: imporvement model
