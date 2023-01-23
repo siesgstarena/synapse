@@ -4,7 +4,7 @@ from flask import Blueprint, render_template, request, session, redirect, url_fo
 index = Blueprint(name="auth", import_name=__name__)
 
 
-@index.route("/login", methods=["GET", "POST"])
+@index.route("login", methods=["GET", "POST"])
 def login():
     if request.method == "GET":
         return render_template("login.html")
@@ -18,7 +18,7 @@ def login():
     return redirect(url_for("auth.login"))
 
 
-@index.route("/logout", methods=["GET"])
+@index.route("logout", methods=["GET"])
 def logout():
     session["admin"] = False
     return redirect(url_for("auth.login"))
