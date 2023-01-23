@@ -3,28 +3,47 @@ name: Pylint
 on: [push]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.9"]
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v3
-        with:
-          python-version: ${{ matrix.python-version }}
+    build:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                python-version: ["3.9"]
+        steps:
+            - uses: actions/checkout@v3
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+            - name: Set up Python ${{ matrix.python-version }}
+              uses: actions/setup-python@v3
+              with:
+                  python-version: ${{ matrix.python-version }}
 
-      - name: Analysing the code with pylint
-        run: |
-          pylint $(git ls-files '*.py')
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r requirements.txt
 
-      - name: Analysing the code with flake8
-        run: |
-          flake8 $(git ls-files '*.py')
+            - name: Analysing the code with pylint
+              run: |
+                  pylint $(git ls-files '*.py')
+
+            - name: Analysing the code with flake8
+              run: |
+                  flake8 $(git ls-files '*.py')
+
+            - name: Analysing the code with black
+              run: |
+                  black --check $(git ls-files '*.py')
+
+            - name: Run tests
+              run: |
+                  pytest
+
+              env:
+                  FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
+                  FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+                  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+                  SECRET_KEY: ${{ secrets.SECRET_KEY }}
+                  ADMIN_USERNAME: ${{ secrets.ADMIN_USERNAME }}
+                  ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
+                  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+                  MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+                  MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
