@@ -7,13 +7,15 @@ from db.mongo import init_mongo
 from storage.firebase import init_firebase
 from middleware.auth import AdminIndexView
 from middleware.access_token import VerifyAccessToken
+from .extensions import mail
 
 
 def create_app(app, config_file="settings.py"):
-    init_firebase()
     dirname = os.path.dirname(__file__)
     config_file = os.path.join(dirname, config_file)
     app.config.from_pyfile(config_file)
+    init_firebase()
+    mail.init_app(app)
     app = init_mongo(app)
     Session(app)
     app.wsgi_app = VerifyAccessToken(app.wsgi_app)

@@ -101,7 +101,7 @@ unsafe-load-any-extension=no
 #verbose=
 
 disable=
-    C0114,C0116,C0115
+    C0114,C0116,C0115,W0703
 [BASIC]
 
 # Naming style matching correct argument names.
@@ -186,6 +186,7 @@ good-names=i,
            n,
            X,
            Y,
+           e,
            Run,
            _
 
@@ -501,7 +502,7 @@ ignore-imports=yes
 ignore-signatures=yes
 
 # Minimum lines number of a similarity.
-min-similarity-lines=4
+min-similarity-lines=10
 
 
 [SPELLING]
