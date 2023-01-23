@@ -1,5 +1,5 @@
 import os
-from flask import Blueprint, render_template, request, session, redirect
+from flask import Blueprint, render_template, request, session, redirect, url_for
 
 index = Blueprint(name="auth", import_name=__name__)
 
@@ -14,11 +14,11 @@ def login():
         "ADMIN_PASSWORD"
     ):
         session["admin"] = True
-        return redirect("/admin")
-    return redirect("/admin/login")
+        return redirect(url_for("admin.index"))
+    return redirect(url_for("auth.login"))
 
 
 @index.route("/logout", methods=["GET"])
 def logout():
     session["admin"] = False
-    return redirect("/")
+    return redirect(url_for("auth.login"))
