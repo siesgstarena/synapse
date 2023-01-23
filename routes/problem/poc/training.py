@@ -23,7 +23,7 @@ def training_handler():
         model_path = "knn_ball_tree.pkl"
         train_knn(df, 3, "ball_tree", model_path)
         similarities_path = "similarities.pkl"
-        save_similarities(df, 3, "knn_ball_tree", similarities_path)
+        save_similarities(df, 3, "knn_ball_tree.pkl", similarities_path)
         paths = upload_file_to_firebase(
             "problem",
             [submission_path, sucess_score_path, model_path, similarities_path],
