@@ -1,8 +1,8 @@
 ---
-name: Improve Experiment
-about: Suggest improvement in the experiment
+name: Improvemet model
+about: Suggest improvement in the model
 title: ''
-labels: imporve experiment
+labels: imporvement model
 assignees: ''
 
 ---
@@ -10,7 +10,7 @@ assignees: ''
 **Is your improvement related to a problem? Please describe.**
 A clear and concise description of what the problem is. Example: I'm always frustrated when [...]
 
-**Describe how you are going to improve the experiment**
+**Describe how you are going to improve the model**
 A clear and concise description of what you are improving, how you are improving
 
 **Describe alternatives you've considered**
