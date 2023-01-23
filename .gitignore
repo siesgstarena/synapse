@@ -27,7 +27,10 @@ __pycache__/
 
 # C extensions
 *.so
-
+!*.csv
+*.pkl
+/*.csv
+knn_ball_tree
 # Distribution / packaging
 .Python
 build/
