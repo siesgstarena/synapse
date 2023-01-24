@@ -23,15 +23,20 @@ The current recommendation is only considering the language of solution which us
 The project is divided in following structure:
 
 `.github` : This module ensures that the syntax is followed and it builds docker image.
-    poc: This modules takes up raw data and applies the formula and trains the model,then everything is stored as backup for 
-    recommendation in the database
-    recommend: This module recommends using the database.
-    1. raw: This module converts json data into csv
-    2. preprocess: This module performs the basic operations on the data. e.g. Applies the recommendaton formula over the 
-       data.
-    3. trainer: This module trains the model using KNN algorithm
-    4. similarities: This module finds problems having similarity between them and stores in database.
-    5. recommend: This module uses fireball database to recommend a problem to arena user.
+
+`config` : This module handles the keys,urls, mail operations
+
+`db` : This module has the information related to database, database used here is mongodb.
+
+`poc` : This modules takes up raw data and applies the formula and trains the model,then everything is stored as backup for 
+recommendation in the database
+recommend: This module recommends using the database.
+1. raw: This module converts json data into csv
+2. preprocess: This module performs the basic operations on the data. e.g. Applies the recommendaton formula over the 
+   data.
+3. trainer: This module trains the model using KNN algorithm
+4. similarities: This module finds problems having similarity between them and stores in database.
+5. recommend: This module uses fireball database to recommend a problem to arena user.
 
 ```
 - Get Started
