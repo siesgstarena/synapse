@@ -22,21 +22,38 @@ used, irrespective of type of problem.
 The current recommendation is only considering the language of solution which user has submitted.
 The project is divided in following structure:
 
-`.github` : This module ensures that the syntax is followed and it builds docker image.
+.github : This module ensures that the syntax is followed and it builds docker image.
 
-`config` : This module handles the keys,urls, mail operations
+config : This module handles the keys,urls, mail operations
 
-`db` : This module has the information related to database, database used here is mongodb.
+db : This module has the information related to database, database used here is mongodb.
 
-`poc` : This modules takes up raw data and applies the formula and trains the model,then everything is stored as backup for 
-recommendation in the database
-recommend: This module recommends using the database.
-1. raw: This module converts json data into csv
-2. preprocess: This module performs the basic operations on the data. e.g. Applies the recommendaton formula over the 
-   data.
-3. trainer: This module trains the model using KNN algorithm
-4. similarities: This module finds problems having similarity between them and stores in database.
-5. recommend: This module uses fireball database to recommend a problem to arena user.
+helper: The current recommendation service is for recommending new problems to arena user, the problem 
+module has files related to problem recommendation only. In future a new module can be added to the 
+helper. e.g. Blog recommendation service.
+
+    1. raw: This module converts json data into csv
+    2. preprocess: This module performs the basic operations on the data. e.g. Applies the recommendaton formula over the 
+       data.
+    3. trainer: This module trains the model using KNN algorithm
+    4. similarities: This module finds problems having similarity between them and stores in database.
+    5. recommend: This module uses fireball database to recommend a problem to arena user.
+
+middleware : This module ensures authorize access to recommendation service.
+
+ml : This module includes all the pre-processing and machine learning files
+
+model : This module consists of database schema.
+
+routes : This module authorizes login and logout credentials.
+
+services : This module loads or save ml model to database.
+
+storage : This module consists of firebase configuration
+
+test : This module includes of unit and integrated testing files.
+
+utils : This module consists of mail, load or save model files.
 
 ```
 - Get Started
