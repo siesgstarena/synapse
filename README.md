@@ -1,5 +1,6 @@
 # Arena 2.0 Recommendation-system
-A recommendation system developed in python for the arena members, that will recommend them new competitive programming question from all the questions available on the arena.
+A Recommendation Service developed in python by CodeChef Arena Members, for the Arena Platform, this service will currently recommend users with new competitive programming question based on their skill level, from all the questions available on the arena.
+This sevice can be easily expanded to also recommend other things such as blogs, we can easily do that by adding a single folder in the `routes` folder (The structure of the routes folder is explained below)
 - How it works
 
 ```
