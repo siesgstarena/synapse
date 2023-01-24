@@ -22,7 +22,7 @@ used, irrespective of type of problem.
 The current recommendation is only considering the language of solution which user has submitted.
 The project is divided in following structure:
 
-`.github' : This module ensures that the syntax is followed and it builds docker image.
+`.github` : This module ensures that the syntax is followed and it builds docker image.
     poc: This modules takes up raw data and applies the formula and trains the model,then everything is stored as backup for 
     recommendation in the database
     recommend: This module recommends using the database.
