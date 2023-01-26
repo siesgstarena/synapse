@@ -64,6 +64,13 @@ virtualenv env
 pip install -r requirements.txt
 ```
 
+- Getting the configuration ready
+
+Copy the .env.example file at the same location and save as .env
+```
+cp .env.example .env
+```
+
 - Hook install
 ```
 pre-commit install
