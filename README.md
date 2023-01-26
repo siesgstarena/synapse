@@ -6,6 +6,11 @@
 <h3 align="center">Official Recommendation Service of SIESGSTarena</h3>
 <br>
 
+![MIT](https://badgen.net/badge/license/MIT/green)
+![Python](https://badgen.net/badge/python/3.9.7/green)
+[![Docker Hub](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/dockerhub.yml/badge.svg)](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/dockerhub.yml)
+[![Pylint](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/pylint.yml/badge.svg)](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/pylint.yml)
+
 Synapse A Recommendation Service developed in python by CodeChef Arena Members, for the Arena Platform, this service will help us to deploy various Experiments held at [labs](https://github.com/siesgstarena/labs) currently recommend users with new competitive programming question based on their skill level, from all the questions available on the arena.
 This sevice can be easily expanded to also recommend other things such as blogs, we can easily do that by adding a single folder in the `routes` folder (The structure of the routes folder is explained below)
 
@@ -44,7 +49,9 @@ used, irrespective of type of problem.
 - storage : This module consists of firebase configuration
 - test : This module includes of unit and integrated testing files.
 - utils : This module consists of mail, load or save model files.
-
+ 
+ <hr>
+ 
 - Get Started
 
 ```
