@@ -16,7 +16,7 @@ def recommend_handler():
     except Exception as e:
         send_mail(
             os.environ.get("MAIL_USERNAME"),
-            "Training Failed",
+            "Recommendation Error",
             str(e),
         )
         return jsonify({"status": "error", "message": str(e)})
