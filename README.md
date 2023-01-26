@@ -1,9 +1,15 @@
-# Synapse Official Recommendation Service of SIESGSTarena
+<h1 align="center">
+  <img src="https://res.cloudinary.com/siesgstarena/image/upload/v1576090231/arena/bug4ever2019/assets/labs.png" align="center" height="80">
+  Synapse
+  <br>
+</h1>
+<h3 align="center">Official Recommendation Service of SIESGSTarena</h3>
+<br>
+
 Synapse A Recommendation Service developed in python by CodeChef Arena Members, for the Arena Platform, this service will help us to deploy various Experiments held at [labs](https://github.com/siesgstarena/labs) currently recommend users with new competitive programming question based on their skill level, from all the questions available on the arena.
 This sevice can be easily expanded to also recommend other things such as blogs, we can easily do that by adding a single folder in the `routes` folder (The structure of the routes folder is explained below)
+
 ### How it works
-
-
 The recommendation will be independent of the type of problem, it will be completely dependent on the language in which the user has 
 solved the previous problem.
 The recommendation system (success score) is based on formula:- 1/(1+TS-PS);
