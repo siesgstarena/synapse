@@ -6,7 +6,7 @@
 <h3 align="center">Official Recommendation Service of SIESGSTarena</h3>
 <br>
 
-![MIT](https://badgen.net/badge/license/GNUGeneralPublicv3.0/green)
+![MIT](https://badgen.net/badge/license/GPL-3.0/green)
 ![Python](https://badgen.net/badge/python/3.9.7/green)
 [![Docker Hub](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/dockerhub.yml/badge.svg)](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/dockerhub.yml)
 [![Pylint](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/pylint.yml/badge.svg)](https://github.com/Arena-Tasks/Recommendation-system/actions/workflows/pylint.yml)
