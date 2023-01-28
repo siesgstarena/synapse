@@ -38,12 +38,13 @@ jobs:
                   pytest
 
               env:
-                  FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
-                  FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
-                  MONGODB_URI: ${{ secrets.MONGODB_URI }}
+                  FIREBASE_PRIVATE_KEY_DEV: ${{ secrets.FIREBASE_PRIVATE_KEY }}
+                  FIREBASE_STORAGE_BUCKET_DEV: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+                  MONGODB_URI_DEV: ${{ secrets.MONGODB_URI }}
                   SECRET_KEY: ${{ secrets.SECRET_KEY }}
                   ADMIN_USERNAME: ${{ secrets.ADMIN_USERNAME }}
                   ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
                   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
                   MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
                   MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+                  FLASK_ENVIRONMENT: development
