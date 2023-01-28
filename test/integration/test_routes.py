@@ -47,7 +47,7 @@ def test_auth_login_post_route():
 with app.test_client() as client:
     client.post(
         "/auth/login",
-        data=dict(username="admin", password="admin"),
+        data=dict(username="test", password="test"),
         follow_redirects=True,
     )
     response = client.get("/admin/")
