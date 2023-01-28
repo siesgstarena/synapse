@@ -1,0 +1,11 @@
+{
+    "type": "service_account",
+    "project_id": "siesgstarena-synapse",
+    "private_key_id": "35a96ea7e4f22191ca4891856e4c03095c663363",
+    "client_email": "firebase-adminsdk-yk9gs@siesgstarena-synapse.iam.gserviceaccount.com",
+    "client_id": "104881085793479478709",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-yk9gs%40siesgstarena-synapse.iam.gserviceaccount.com"
+}

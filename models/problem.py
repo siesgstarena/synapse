@@ -25,7 +25,10 @@ class ProblemModel(db.Document):
             self.model_number = self.model_number
         # if creating, set model number
         else:
-            self.model_number = last_model.model_number + 1
+            if last_model is None:
+                self.model_number = 1
+            else:
+                self.model_number = last_model.model_number + 1
         # make all other models not current
         ProblemModel.objects().update(is_current=False)
         self.is_current = True
