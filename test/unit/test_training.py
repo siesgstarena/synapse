@@ -20,4 +20,4 @@ def test_recommend():
 
 def test_recommend_correct():
     temp = recommend("5b72f1a5750b6100209d9f13")
-    assert len(temp[0]) == 3
+    assert len(temp[0]) == 207

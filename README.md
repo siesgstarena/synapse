@@ -69,7 +69,7 @@ cp .env.example .env
 
 - Hook install
 ```
-pre-commit install
+pre-commit install --hook-type pre-commit --hook-type pre-push
 ```
 
 - Hook run command
