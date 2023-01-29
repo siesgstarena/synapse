@@ -34,9 +34,11 @@ def prepro(submission_df):
     df = submission_df.drop(TO_REMOVE, axis=1)
     df.replace(TO_REPLACE, REPLACE_WITH, inplace=True)
     df.replace(TO_REPLACE_LANGUAGE, REPLACE_WITH_LANGUAGE, inplace=True)
-    df["problemId"] = df["problemId"].apply(
-        lambda x: json.loads(x.replace("'", '"'))["$oid"]
-    )
+    # check if problemId is string or json
+    if isinstance(df.problemId, str):
+        df["problemId"] = df["problemId"].apply(
+            lambda x: json.loads(x.replace("'", '"'))["$oid"]
+        )
     unique_problems = df.problemId.unique()
     group_language = (
         df.groupby(["language", "status", "problemId"]).size().reset_index(name="count")
@@ -287,7 +289,6 @@ def prepro(submission_df):
             problem_group_language[key] = 0
         else:
             problem_group_language[key] = value[1] / (value[0] + value[1])
-    print(problem_group_language)
     for key, value in problem_group_particular_language.items():
         for key1, value1 in value.items():
             if value1[0] + value1[1] != 0:
@@ -314,7 +315,6 @@ def prepro(submission_df):
             )
 
         success_score[problems] = dict(zip(languages, temp))
-    print("-->>>", success_score)
     x = pd.DataFrame.from_dict(success_score, orient="index")
     x.columns.name = "problemId"
     normalized_df = (x - x.min()) / (x.max() - x.min())

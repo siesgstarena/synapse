@@ -11,7 +11,7 @@ def knn_recommend(problem_id, n_neighbors, df, knn):
     to_predict = np.array(
         df[df["problemId"] == problem_id].drop("problemId", axis=1)
     ).reshape(1, -1)
-    _, indices = knn.kneighbors(to_predict, n_neighbors=n_neighbors + 1)
+    _, indices = knn.kneighbors(to_predict, n_neighbors=n_neighbors)
     rec = []
     for i in indices[0]:
         if Y.iloc[i] != problem_id:

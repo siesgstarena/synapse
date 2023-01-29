@@ -8,7 +8,7 @@ from utils.save_model import save_model
 def train_knn(df, n_neighbors, algorithm, model_name):
     X = df.drop("problemId", axis=1)
     Y = df["problemId"]
-    knn = KNN(n_neighbors=n_neighbors + 1, algorithm=algorithm)
+    knn = KNN(n_neighbors=n_neighbors, algorithm=algorithm)
     knn.fit(X, Y)
     save_model(knn, model_name)
 
