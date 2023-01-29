@@ -29,3 +29,4 @@ repos:
         language: system
         types: [python]
         stages: [push]
+        always_run: true
